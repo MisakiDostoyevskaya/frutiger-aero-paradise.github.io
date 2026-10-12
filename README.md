@@ -1,4 +1,4 @@
-# Frutiger Aero Paradise 🌐💧
+# Frutiger Aero
 
 Un escritorio web interactivo inspirado en Frutiger Aero y Windows Vista, hecho con HTML, CSS y JavaScript sin frameworks.
 
@@ -27,9 +27,6 @@ Luego abre `http://localhost:8000`.
 2. Sube `index.html`, `style.css`, `script.js` y la carpeta `assets`.
 3. En **Settings → Pages**, elige la rama principal y la carpeta raíz.
 4. Guarda y espera a que GitHub Pages publique el sitio.
-
-## Personalizar proyectos
-En `script.js`, busca el bloque `$$('[data-project]')`. Cambia los avisos de los proyectos por enlaces a tus repositorios o páginas reales. Los enlaces están deliberadamente sin destinos inventados.
 
 ## Música
 La música es un paisaje sonoro generativo sintetizado en el navegador. Por las políticas de reproducción automática, hay que pulsar Play. No se descarga ni transmite ninguna canción.

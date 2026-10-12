@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#079bd3">
-  <title>Frutiger Aero Paradise ✧</title>
+  <title>Frutiger Aero</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body data-scene="ocean">
@@ -14,32 +14,31 @@
   <div id="cursor-glow" aria-hidden="true"></div>
 
   <header class="topbar glass">
-    <div class="brand"><span class="brand-orb">✧</span><span>Frutiger Aero <small>PARADISE</small></span></div>
-    <div class="top-message">Un pequeño paraíso digital para soñar en azul ♡</div>
+    <div class="brand"><span class="brand-orb">✦</span><span>Frutiger Aero</span></div>
+    <div class="top-message">Un pequeño espacio digital para soñar en azul</div>
     <div class="top-actions"><button class="icon-button" id="minimize-all" title="Minimizar ventanas">－</button><button class="icon-button" id="toggle-fullscreen" title="Pantalla completa">□</button></div>
   </header>
 
   <nav class="dock glass" aria-label="Navegación principal">
     <button class="dock-item active" data-open="welcome"><span>⌂</span>Inicio</button>
-    <button class="dock-item" data-open="projects"><span>▰</span>Proyectos</button>
     <button class="dock-item" data-open="music"><span>♫</span>Música</button>
     <button class="dock-item" data-open="aquarium"><span>♧</span>Acuario</button>
     <button class="dock-item" data-open="ambience"><span>☼</span>Ambiente</button>
     <button class="dock-item" data-open="notes"><span>✎</span>Notas</button>
-    <button class="dock-item" data-open="about"><span>✧</span>Acerca de</button>
+    <button class="dock-item" data-open="about"><span>✦</span>Acerca de</button>
   </nav>
 
   <main class="desktop">
     <section class="window glass welcome-window" data-window="welcome">
-      <div class="titlebar"><span>🌐 Bienvenida, viajera de mil mundos</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
+      <div class="titlebar"><span>Bienvenida a tu espacio digital</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
       <div class="welcome-content">
-        <div class="welcome-art"><div class="art-orb">✦</div><span class="art-caption">breathe<br>in color ♡</span></div>
+        <div class="welcome-art"><div class="art-orb">✦</div><span class="art-caption">breathe<br>in color</span></div>
         <div class="welcome-copy">
           <p class="eyebrow">WELCOME TO YOUR LITTLE PARADISE</p>
-          <h1>Hola, Misa. <br><em>El futuro puede ser amable.</em></h1>
+          <h1>El futuro<br><em>puede ser amable.</em></h1>
           <p>Un rincón brillante inspirado en la naturaleza, la tecnología y esa internet de los 2000 que parecía prometer un mundo mejor.</p>
-          <div class="button-row"><button class="aero-button" data-open="projects">✧ Explorar proyectos</button><button class="aero-button secondary" data-open="ambience">☼ Cambiar ambiente</button></div>
-          <p class="tiny-note">Las cosas bonitas también pueden ser útiles ♡</p>
+          <div class="button-row"><button class="aero-button secondary" data-open="ambience">Cambiar ambiente</button></div>
+          <p class="tiny-note">Las cosas bonitas también pueden ser útiles.</p>
         </div>
       </div>
     </section>
@@ -48,7 +47,7 @@
       <div class="titlebar"><span>♫ Reproductor de música</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
       <div class="music-inner">
         <div class="album"><span>〰</span><strong>UNDERWATER<br>DREAMS</strong><small>ambient • digital</small></div>
-        <div class="track-info"><h2 id="track-name">Ocean of Glass</h2><p>Frutiger Aero Radio · sintetizador generativo</p><div class="equalizer" id="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="track-info"><h2 id="track-name">Ocean of Glass</h2><p>Sonido ambiental generado en el navegador</p><div class="equalizer" id="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
       </div>
       <div class="player-controls"><button id="prev-track" title="Cambiar ambiente sonoro">◀|</button><button class="play-button" id="play-music" aria-label="Reproducir música">▶</button><button id="next-track" title="Cambiar ambiente sonoro">|▶</button><label class="volume">♪ <input id="volume" type="range" min="0" max="100" value="28" aria-label="Volumen"></label></div>
       <p class="music-hint" id="music-status">Pulsa play para activar la música generativa.</p>
@@ -57,60 +56,46 @@
     <section class="window glass ambience-window" data-window="ambience">
       <div class="titlebar"><span>☼ Centro de ambiente</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
       <div class="scene-options">
-        <button class="scene-card" data-scene="sky"><span class="scene-thumb sky-thumb">☁</span>Cielo</button>
-        <button class="scene-card selected" data-scene="ocean"><span class="scene-thumb ocean-thumb">🐬</span>Océano</button>
-        <button class="scene-card" data-scene="forest"><span class="scene-thumb forest-thumb">🌿</span>Bosque</button>
-        <button class="scene-card" data-scene="city"><span class="scene-thumb city-thumb">🏙</span>Ciudad</button>
+        <button class="scene-card" data-scene="sky"><span class="scene-thumb sky-thumb">◌</span>Cielo</button>
+        <button class="scene-card selected" data-scene="ocean"><span class="scene-thumb ocean-thumb">≈</span>Océano</button>
+        <button class="scene-card" data-scene="forest"><span class="scene-thumb forest-thumb">♧</span>Bosque</button>
+        <button class="scene-card" data-scene="city"><span class="scene-thumb city-thumb">▥</span>Ciudad</button>
       </div>
       <div class="toggles">
         <label><span>◉ Burbujas animadas</span><input type="checkbox" id="toggle-bubbles" checked><i></i></label>
-        <label><span>✧ Brillo del cursor</span><input type="checkbox" id="toggle-cursor" checked><i></i></label>
+        <label><span>✦ Brillo del cursor</span><input type="checkbox" id="toggle-cursor" checked><i></i></label>
         <label><span>☼ Movimiento suave</span><input type="checkbox" id="toggle-motion" checked><i></i></label>
         <label><span>♫ Música ambiental</span><input type="checkbox" id="toggle-audio"><i></i></label>
       </div>
     </section>
 
-    <section class="window glass projects-window" data-window="projects">
-      <div class="titlebar"><span>▦ Galería de proyectos</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
-      <p class="section-intro">Pequeños mundos, ideas grandes. ✧</p>
-      <div class="project-grid">
-        <a class="project-card" href="#" data-project="portfolio"><span class="project-icon">⌘</span><strong>Mi portfolio</strong><small>Mi espacio en la web</small></a>
-        <a class="project-card" href="#" data-project="cutesoc"><span class="project-icon">♡</span><strong>CuteSOC</strong><small>Un SOC adorable y útil</small></a>
-        <a class="project-card" href="#" data-project="netpet"><span class="project-icon">🐠</span><strong>NetPet Lab</strong><small>Redes y criaturas digitales</small></a>
-        <a class="project-card" href="#" data-project="grimoire"><span class="project-icon">✧</span><strong>Grimoire</strong><small>Un archivo de conocimiento</small></a>
-      </div>
-      <p class="tiny-note">Edita los enlaces en <code>script.js</code> para conectarlos con tus proyectos reales.</p>
-    </section>
 
     <section class="window glass notes-window" data-window="notes">
-      <div class="titlebar"><span>📝 Notitas flotantes</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
-      <textarea id="notes-text" aria-label="Tus notas" placeholder="Deja aquí una idea bonita...">☑ Terminar mis proyectos
-☐ Aprender algo nuevo
-☐ Guardar un poquito para mis sueños
-☐ Ser amable conmigo ♡</textarea>
+      <div class="titlebar"><span>Notas</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
+      <textarea id="notes-text" aria-label="Tus notas" placeholder="Escribe una nota..."></textarea>
       <div class="notes-footer"><span id="save-status">Tus notas se guardan en este navegador.</span><button class="aero-button small" id="clear-notes">Limpiar</button></div>
     </section>
 
     <section class="window glass clock-window" data-window="clock">
-      <div class="clock-label">✧ TU TIEMPO, TU UNIVERSO ✧</div><div id="clock">00:00:00</div><div id="date">Cargando fecha...</div>
-      <div class="clock-orbit"><span>✦</span><span>·</span><span>♡</span></div>
+      <div class="clock-label">TU TIEMPO, TU UNIVERSO</div><div id="clock">00:00:00</div><div id="date">Cargando fecha...</div>
+      <div class="clock-orbit"><span>✦</span><span>·</span><span>○</span></div>
     </section>
 
     <section class="window glass aquarium-window" data-window="aquarium">
-      <div class="titlebar"><span>🐠 Mini acuario</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
-      <div class="aquarium" id="aquarium"><span class="seaweed">♧ ♧</span><span class="fish fish-one">🐠</span><span class="fish fish-two">🐟</span><span class="fish fish-three">🐡</span><span class="sea-star">✦</span></div>
-      <p class="music-hint">Pasa el cursor por el agua y mira cómo despierta. ♡</p>
+      <div class="titlebar"><span>Mini acuario</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
+      <div class="aquarium" id="aquarium"><span class="seaweed">♧ ♧</span><span class="fish fish-one">◉</span><span class="fish fish-two">◇</span><span class="fish fish-three">○</span><span class="sea-star">✦</span></div>
+      <p class="music-hint">Pasa el cursor por el agua y observa el movimiento.</p>
     </section>
 
     <section class="window glass about-window" data-window="about">
-      <div class="titlebar"><span>✧ Acerca de este mundo</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
-      <h2>Un futuro más azul.</h2><p>Frutiger Aero Paradise es un pequeño homenaje a una estética que mezclaba naturaleza y tecnología con optimismo. Hecho con HTML, CSS y JavaScript, sin frameworks.</p><p class="tiny-note">Tip: arrastra las ventanas desde su barra superior. Puedes minimizar, cerrar y volver a abrirlas desde el dock.</p>
+      <div class="titlebar"><span>✦ Acerca de este mundo</span><div><button class="win-min">－</button><button class="win-close">×</button></div></div>
+      <h2>Un futuro más azul.</h2><p>Este espacio es un pequeño homenaje a una estética que mezclaba naturaleza y tecnología con optimismo. Hecho con HTML, CSS y JavaScript, sin frameworks.</p><p class="tiny-note">Puedes arrastrar las ventanas desde su barra superior, minimizarlas o cerrarlas.</p>
     </section>
   </main>
 
   <footer class="taskbar glass">
     <button class="start-button" id="start-button"><span>✿</span> Inicio</button>
-    <div class="task-apps"><button data-open="music">♫ Música</button><button data-open="projects">▦ Proyectos</button><button data-open="ambience">☼ Ambiente</button></div>
+    <div class="task-apps"><button data-open="music">Música</button><button data-open="ambience">Ambiente</button></div>
     <div class="system-tray"><span title="Conectado">◉</span><span>◖)))</span><span id="tray-clock">00:00</span></div>
   </footer>
 
