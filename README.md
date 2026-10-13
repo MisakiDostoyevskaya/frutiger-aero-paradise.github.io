@@ -15,21 +15,5 @@ Un escritorio web interactivo inspirado en Frutiger Aero y Windows Vista, hecho 
 - Reproductor con música ambiental generada por Web Audio API (no necesita archivo de audio externo).
 - Diseño adaptable a móviles.
 
-## Ejecutar
-Abre `index.html` en un navegador moderno. Para desarrollo, también puedes iniciar un servidor local desde esta carpeta:
-
-```bash
-python -m http.server 8000
-```
-
-Luego abre `http://localhost:8000`.
-
-## Publicar en GitHub Pages
-1. Crea un repositorio nuevo en GitHub.
-2. Sube `index.html`, `style.css`, `script.js` y la carpeta `assets`.
-3. En **Settings → Pages**, elige la rama principal y la carpeta raíz.
-4. Guarda y espera a que GitHub Pages publique el sitio.
-
 ## Música
 La música es un paisaje sonoro generativo sintetizado en el navegador. Por las políticas de reproducción automática, hay que pulsar Play. No se descarga ni transmite ninguna canción.
-
